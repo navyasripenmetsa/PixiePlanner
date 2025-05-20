@@ -1,0 +1,54 @@
+body {
+    text-align:center;
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    height: 100vh;
+    font-family: 'Comfortaa', cursive;
+    background: linear-gradient(135deg, #fbd3e9, #c6d4f5);
+}
+#HeadingandLogo {
+    display:flex;
+    height:250px;
+    width:600px;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+}
+#bunnyimage {
+    height:200px;
+    width:200px;
+    margin-right: 100px;
+    background-image:url("Pixie_Plannner_Logo.jpg");
+    background-size: contain;
+    border-radius:20px
+}
+#heading{
+    font-weight: 100;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid black;
+  width: 0;
+  animation: typing 3s steps(13) 1s infinite alternate, blink 0.6s step-end infinite;
+}
+#Caption {
+    font-weight:600;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 13ch; /* Number of characters in 'Pixie Planner' */
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
