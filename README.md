@@ -1,1 +1,2 @@
-# PixiePlanner
+# PixiePlanner : Study Planner
+
