@@ -17,4 +17,13 @@
 - 📈 Weekly progress bar
 - 📅 Upcoming tasks list with title, due date, and status
 - ➕ Add Task button for quick task creation
+***
+⏰ **Reminders** – Smart notifications to keep users on track and motivated.
 
+- 📬 **Daily Task Summary** – Sent every morning with a quick overview.  
+   _Example: “Hey Rahul! You have 3 tasks due today. Stay focused!”_
+- 📅 **Upcoming Deadline Warning** – Sent 1 day before a task is due.  
+   _Example: “Reminder: Your Physics Mock Test is due tomorrow.”_
+- ⚠️ **Missed Task Alert** – Notifies users about overdue tasks.  
+   _Example: “Oops! You missed your English assignment. Update it now.”_
+- 📊 **Weekly Progress Report** – Recap of completed and pending tasks, plus personalized productivity tips.
