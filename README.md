@@ -9,4 +9,12 @@
 🧭 **Top Navigation Bar** – Persistent navigation across all main pages post-login, including: Dashboard, Completed Tasks, Due Today, Pomodoro Timer, Study Music, Study Optimization Tools, Resources, Profile, and Logout.
 ***
 🧠 **Study Optimization Tools** – A dedicated section in the navigation bar to help students learn smarter, not harder. Includes: 🏅 Badges & Points, 🔁 Active Recall Mode, 📓 Review Notes, 🌿 Environment Tips, and ⚡ Contextual Boosters.
+***
+📊 **Dashboard Layout** – Main screen showing an overview of your tasks and progress.
+
+- 👋 Welcome message (e.g., “Welcome, Rahul”)
+- ✅ Task stats: Completed this week, Due today, Overdue, and Pending
+- 📈 Weekly progress bar
+- 📅 Upcoming tasks list with title, due date, and status
+- ➕ Add Task button for quick task creation
 
