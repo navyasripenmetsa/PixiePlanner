@@ -1,54 +1,101 @@
 body {
-    text-align:center;
-    display: flex;
-    justify-content: center;  
-    align-items: center;      
-    height: 100vh;
-    font-family: 'Comfortaa', cursive;
-    background: linear-gradient(135deg, #fbd3e9, #c6d4f5);
+  margin: 0;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+  background: linear-gradient(135deg, #fbd3e9, #c6d4f5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
-#HeadingandLogo {
-    display:flex;
-    height:250px;
-    width:600px;
-    justify-content: center;
-    align-items: center;
-    margin:auto;
+
+.container {
+  text-align: center;
+  padding: 2rem;
 }
-#bunnyimage {
-    height:200px;
-    width:200px;
-    margin-right: 100px;
-    background-image:url("Pixie_Plannner_Logo.jpg");
-    background-size: contain;
-    border-radius:20px
+
+.card {
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  padding: 3rem 2rem;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+  animation: fadeIn 1s ease-in;
 }
-#heading{
-    font-weight: 100;
-  overflow: hidden;
+
+.logo-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  background-image: url("Pixie_Plannner_Logo.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  margin-right: 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
   white-space: nowrap;
-  border-right: 2px solid black;
-  width: 0;
-  animation: typing 3s steps(13) 1s infinite alternate, blink 0.6s step-end infinite;
+  overflow: hidden;
+  border-right: 3px solid black;
+  animation: typing 3s steps(13) 1s 1 normal both, blink 0.6s step-end infinite;
 }
-#Caption {
-    font-weight:600;
+
+.tagline {
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #555;
 }
-a {
-    text-decoration: none;
-    color:black;
+
+.cta-button {
+  display: inline-block;
+  background-color: #ff69b4;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
 }
+
+.cta-button:hover {
+  background-color: #ff1493;
+}
+
+/* Animations */
 @keyframes typing {
-  0% {
+  from {
     width: 0;
   }
-  100% {
-    width: 13ch; /* Number of characters in 'Pixie Planner' */
+  to {
+    width: 13ch;
   }
 }
 
 @keyframes blink {
   50% {
     border-color: transparent;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
