@@ -1,0 +1,88 @@
+body {
+    font-family:'Comfortaa',cursive;
+    height:100vh;
+    background: linear-gradient(135deg, #fbd3e9, #c6d4f5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-card {
+    width:500px;
+    height:475px;
+    background-color: white;
+    box-shadow:8px 8px 24px rgba(0, 0, 0, 0.15);
+    border-radius:20px;
+    padding : 30px 30px 30px 30px;
+}
+.logo {
+    width:60px;
+    height:60px;
+    background-color: black;
+    border-radius: 100%;
+    background-image: url('Pixie_Plannner_Logo.jpg');
+    background-position: center;
+    background-size: cover;
+    margin-right:150px;
+}
+.login-card:hover {
+    box-shadow : 10px 10px 30px hotpink;
+}
+.heading {
+    display:flex;
+    margin-bottom:20px;
+}
+#email{
+    width:300px;
+    padding:10px 10px 10px 10px;
+    border:1px solid black;
+    border-radius:8px;
+    cursor:pointer;
+}
+#password {
+    width:300px;
+    padding:10px 10px 10px 10px;
+    border:1px solid black;
+    border-radius:8px;
+    cursor:pointer;
+}
+.login-btn {
+    width:200px;
+    height:40px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Comfortaa',cursive;
+    background-color:#ff69b4;
+    border-radius:25px;
+    margin-left:auto;
+    display:block;
+    margin:auto;
+    border:none;
+    cursor:pointer;
+}
+.login-btn:hover {
+    background-color: #ff1493;
+}
+.signupclick {
+    text-decoration: none;
+}
+p {
+    text-align: center;
+}
+ .Google-Login {
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Comfortaa', cursive;
+    background-color: #c6d4f5;
+    border-radius: 25px;
+    margin: auto;
+    display: flex;              
+    align-items: center;         
+    justify-content: center;     
+    gap: 10px;                   
+    border: none;                
+    cursor: pointer;            
+}
+.Google-Login:hover {
+    background-color: #aabbe0;
+}

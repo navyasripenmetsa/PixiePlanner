@@ -8,12 +8,10 @@ body {
   align-items: center;
   height: 100vh;
 }
-
 .container {
   text-align: center;
   padding: 2rem;
 }
-
 .card {
   background: white;
   border-radius: 20px;
@@ -23,6 +21,9 @@ body {
   width: 100%;
   margin: auto;
   animation: fadeIn 1s ease-in;
+}
+.card:hover {
+  box-shadow : 10px 10px 30px hotpink;
 }
 
 .logo-text {
