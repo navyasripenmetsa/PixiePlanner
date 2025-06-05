@@ -1,5 +1,4 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyDNm5lRJLoukF18sYg9Bh84bldRMQv5Pe0",
   authDomain: "pixieplanner-5dcbf.firebaseapp.com",
   projectId: "pixieplanner-5dcbf",
   storageBucket: "pixieplanner-5dcbf.firebasestorage.app",
