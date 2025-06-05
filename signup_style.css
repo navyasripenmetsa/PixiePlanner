@@ -1,14 +1,14 @@
 body {
-    font-family:'Comfortaa',cursive;
     height:100vh;
+    font-family: 'Comfortaa',cursive;
     background: linear-gradient(135deg, #fbd3e9, #c6d4f5);
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-.login-card {
+.signup-card {
     width:500px;
-    height:500px;
+    height:650px;
     background-color: white;
     box-shadow:8px 8px 24px rgba(0, 0, 0, 0.15);
     border-radius:20px;
@@ -24,29 +24,27 @@ body {
     background-size: cover;
     margin-right:150px;
 }
-.login-card:hover {
+.signup-card:hover {
     box-shadow : 10px 10px 30px hotpink;
 }
 .heading {
     display:flex;
-    margin-bottom:20px;
 }
-#email{
+.subheading {
+    text-align:center;
+}
+#fullname,#email,#password,#confirm-password{
     width:300px;
     padding:10px 10px 10px 10px;
     border:1px solid black;
     border-radius:8px;
     cursor:pointer;
 }
-#password {
-    width:300px;
-    padding:10px 10px 10px 10px;
-    border:1px solid black;
-    border-radius:8px;
-    cursor:pointer;
+a {
+    text-decoration: none;
 }
-.login-btn {
-    width:200px;
+.signup-btn {
+    width:400px;
     height:40px;
     font-size: 20px;
     text-align: center;
@@ -59,16 +57,10 @@ body {
     border:none;
     cursor:pointer;
 }
-.login-btn:hover {
+.signup-btn:hover {
     background-color: #ff1493;
 }
-.signupclick {
-    text-decoration: none;
-}
-p {
-    text-align: center;
-}
- .Google-Login {
+ .Google-signup {
     width: 400px;
     height: 40px;
     font-size: 20px;
@@ -83,9 +75,6 @@ p {
     border: none;                
     cursor: pointer;            
 }
-.Google-Login:hover {
+.Google-signup:hover {
     background-color: #aabbe0;
-}
-a {
-    text-decoration: none;
 }
